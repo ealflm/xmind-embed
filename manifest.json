@@ -1,0 +1,25 @@
+{
+    "name": "Xmind Embed",
+    "description": "Format Xmind embed code",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "64": "images/64.png",
+        "128": "images/128.png"
+    },
+    "browser_action": {
+        "default_icon": "images/128.png",
+        "icons": {
+            "16": "images/16.png",
+            "32": "images/32.png",
+            "64": "images/64.png",
+            "128": "images/128.png"
+        }
+      },
+    "background": {
+        "page": "background.html"
+    },
+    "permissions": ["clipboardRead"]
+}
